@@ -1,0 +1,107 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+#nav {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#nav-items {
+	width: 50%;
+	float: right;
+}
+
+#nav ul, li {
+	list-style-type: none;
+	padding: 10px;
+	margin-right: 20px;
+	margin-top:0;
+	display: inline;
+}
+
+li {
+	border-style: solid;
+	border-width: 0.5px;
+	border-radius: 50px;
+}
+
+#about {
+	background-color: black;
+	margin-top: 50px;
+	float: left;
+	width: 100%;
+	height: 200px;
+	color: white;
+	line-height: 24px;
+}
+
+#about p {
+	padding: 0 40px;
+	margin-left: 150px;
+	margin-right: 150px;
+	text-align: center;
+}
+
+img {
+	width: 900px;
+	padding: 20px 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fade {
+	opacity: 0;
+}
+
+.fadeinleft {
+	opacity: 0;
+	margin-left: -300px;
+	max-width: 100%
+}
+
+#members {
+	height: 2950px;
+	width: 100%;
+	margin-top: 300px;
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#members img {
+	width: 500px;
+}
+
+#army {
+	background-color: black;
+	margin-top: 250px;
+	margin-bottom: 50px;
+	width: 100%;
+	height: 400px;
+	color: white;
+	text-align: center;
+	float: left;
+}
+
+#army img {
+	width: 50px;
+	display: inline;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.acro {
+	line-height: 20px;
+	font-size: 20px;
+}
